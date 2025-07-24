@@ -1,0 +1,95 @@
+/* Noto-Serif font download */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:400px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Inter-font download */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+/* Shared-styles */
+.display-flex{
+    display: flex;
+}
+/* nav-styles */
+.navbar{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-icon{
+    height: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+.nav-links{
+  margin-right: 48px;
+}
+
+/* header-section styles */
+.E95A08{
+    color: #E95A08;
+}
+.gray{
+    color: #00000079;
+}
+.section-title{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+.section-description{
+   font-size: 22px;
+}
+.main-section{
+    margin-top: 114px;
+    max-width: 1140px;
+    max-height: 461px;
+    display: flex;
+    margin-left: 200px;
+}
+.hero-image{
+    width: 100%;;
+}
+/* responsive-media-query */
+@media screen and (max-width:576px) {
+    .navbar{
+        margin: 0;
+    }
+    .nav-links{
+        display: none;
+    }
+    .main-section{
+        margin-left: 0px;
+        flex-direction: column-reverse;
+    }
+    .hero-image{
+        height: 245px;
+    }
+    .section-title{
+        font-size: 24px;
+    }
+    .section-description{
+        font-size: 14px;
+    }
+}
