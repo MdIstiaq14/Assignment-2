@@ -131,7 +131,36 @@ nav ul a{
 }
 
 /* join-section-styles */
-
+.join-section{
+    background-image: url('../assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid;
+    min-height: 533px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.join-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.input-field{
+    width: 644px;
+    height: 50px;
+    border: none;
+}
+.join-button{
+    width: 186px;
+    height: 50px;
+    background-color: #E95A08;
+    border: none;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+}
 
 
 
@@ -149,6 +178,7 @@ nav ul a{
     }
     .hero-image{
         height: 245px;
+        width: 120%;
     }
     .section-title{
         font-size: 24px;
@@ -160,6 +190,7 @@ nav ul a{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin: 0px;
+        gap: 2px;
     }
     .card{
         max-width: 171px;
@@ -170,9 +201,28 @@ nav ul a{
     margin-top: 20px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 20px;
 }
 .lover-content{
     margin: 0px;
 }
-
+.join-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.input-field{
+    width: 218px;
+    height: 50px;
+    border: none;
+}
+.join-button{
+    width: 103px;
+    height: 50px;
+    background-color: #E95A08;
+    border: none;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+}
 }
